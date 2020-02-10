@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Configuration status="ERROR">
+    <Properties>
+        <Property name="logLevel">DEBUG</Property>
+    </Properties>
+
+    <Appenders>
+        <Console name="StdOutAppender" target="SYSTEM_OUT">
+            <PatternLayout pattern="%-5p | %d{yyyy-MM-dd HH:mm:ss}{UTC} | %t | %C{1} | %X{akkaSource} | %L | %m%n"/>
+        </Console>
+    </Appenders>
+
+    <Loggers>
+        <Root level="${logLevel}">
+            <AppenderRef ref="StdOutAppender"/>
+        </Root>
+
+    </Loggers>
+</Configuration>
