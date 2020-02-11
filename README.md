@@ -8,4 +8,4 @@
 
 ## To access the metrics, open your browser and navigate to:
 
-`http:\\localhost:12345\metrics`
+`http://localhost:12345/metrics`
